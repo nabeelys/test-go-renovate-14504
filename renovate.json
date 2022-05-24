@@ -1,5 +1,13 @@
 {
   "extends": [
     "github>nabeelys/my-config-presets",
-  ]
+  ],
+	"packageRules": [
+		{
+			"packagePatterns": [
+				"^github\\.com/aws/aws-sdk-go-v2"
+			],
+			"allowedVersions": "<1.16.0"
+		}
+	]  
 }
