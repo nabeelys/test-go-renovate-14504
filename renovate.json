@@ -1,6 +1,5 @@
 {
   "extends": [
     "github>nabeelys/my-config-presets",
-    ":disableRateLimiting"
   ]
 }
