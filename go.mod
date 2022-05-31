@@ -9,7 +9,7 @@ replace github.com/aws/aws-sdk-go-v2 => github.com/aws/aws-sdk-go-v2 v1.16.1
 
 // multi line
 require (
-	k8s.io/client-go v0.22.0
+	k8s.io/client-go v0.24.1
 )
 
 replace (
