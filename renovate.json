@@ -1,13 +1,5 @@
 {
   "extends": [
     "config:base",
-  ],
-	"packageRules": [
-		{
-			"packagePatterns": [
-				"^github\\.com/aws/aws-sdk-go-v2"
-			],
-			"allowedVersions": "<1.13.0"
-		}
-	]  
+  ]
 }
