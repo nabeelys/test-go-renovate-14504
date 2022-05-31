@@ -9,7 +9,7 @@ replace github.com/aws/aws-sdk-go-v2 => github.com/aws/aws-sdk-go-v2 v1.16.1
 
 require (
 	k8s.io/client-go v0.23.0
-	sigs.k8s.io/controller-runtime v0.9.7
+	sigs.k8s.io/controller-runtime v0.12.1
 )
 
 replace (
